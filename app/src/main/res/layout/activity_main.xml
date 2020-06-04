@@ -9,10 +9,18 @@
     tools:context=".MainActivity">
 
     <com.sulthan.thecalc.CalculatorOutputView
+        android:id="@+id/output_layout"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintEnd_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
+
+    <com.sulthan.thecalc.CalculatorInputView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/output_layout"
+        app:item_icon="@drawable/ic_trash"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
