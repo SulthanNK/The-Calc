@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.sulthan.thecalc.CalculatorOutputView
+    <com.sulthan.thecalc.calculatoroutput.CalculatorOutputView
         android:id="@+id/output_layout"
         android:layout_width="match_parent"
         android:layout_height="200dp"
