@@ -44,7 +44,7 @@ object CalculatorOutputPresenter {
     }
 
     fun solve() {
-        if (mmCurrentOutcome.isEmpty()) {
+        if (mmCurrentOutcome.isNotEmpty()) {
             mmCurrentEquation = mmCurrentOutcome
             mmCurrentOutcome = ""
         }
