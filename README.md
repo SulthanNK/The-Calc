@@ -1,8 +1,6 @@
 <h1 align="center">The-Calc</h1>
 
-<div align= "center">
-  <h4>A simple calculator android application using Kotlin built for #30DaysOfKotlin program</h4>
-</div>
+
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -21,3 +19,6 @@ This project was developed as part of Google's <b>#30DaysOfKotlin</b> program. [
 * OnClickListener Button function
 * Architecture components
 * RecyclerView
+
+## :eyes: License
+MIT © [Sulthan Mohaideen](https://github.com/SulthanNK/The-Cal/blob/master/LICENSE)
