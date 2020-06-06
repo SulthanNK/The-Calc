@@ -18,6 +18,8 @@ object CalculatorOutputPresenter {
 
     fun attach(view: CalculatorOutputInterfaceView) {
         mmView = view
+        updateEquation()
+        updateOutcome()
     }
 
     fun detach() {
